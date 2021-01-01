@@ -6,5 +6,6 @@ def main():
     games = extract_games(1000)
     who_win_tactics_finder(games)
 
+
 if __name__ == "__main__":
     main()

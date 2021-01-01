@@ -9,7 +9,7 @@ import re
 from models.whoWonTacticsModel import WhoWonTacticsModel
 from util.saveListToJson import save_list_to_json
 
-engine = chess.engine.SimpleEngine.popen_uci("../stockfish_20090216_x64")
+engine = chess.engine.SimpleEngine.popen_uci("./tactics/stockfish_20090216_x64")
 
 games_found_count = 0
 games_found = []
