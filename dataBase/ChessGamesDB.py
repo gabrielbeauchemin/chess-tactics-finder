@@ -6,7 +6,7 @@ def extract_games(max_games, min_elo=0, offset=0):
     nbr_games = 0
     curr_game_header = {}
 
-    with open("lichess_db_standard.pgn", "r", encoding="utf8") as fp:
+    with open("dataBase/lichess_db_standard.pgn", "r", encoding="utf8") as fp:
         line = fp.readline()
         index_game = 0
         while line:

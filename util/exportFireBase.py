@@ -9,5 +9,5 @@ def export_to_firebase(tactics_file):
         problems = json.load(json_file)
         for problem in problems:
             problem["random"] = random.uniform(0, 1)
-            r = requests.post("url",
-                              data=json.dumps(problem))
+            r = requests.post("",
+                      data=json.dumps(problem))
